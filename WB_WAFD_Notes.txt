@@ -1,0 +1,30 @@
+problem statement
+design of ELT
+build and test
+presentation or data visualization if necessary
+Since we will not have discussion sessions: what's built to 
+meet the requirement? what's not built based on the 
+requirement and why?
+any potential improvements that can't be done due to time 
+constraints.
+
+
+Problem Statement:
+
+WaFd would like to evaluate the markets in which we operate to determine how to better meet the needs of current and potential customers.  
+
+
+Strategy:
+In order to help WaFd gain valuable insight into the markets in which we operate, the data team has gathered information from the US Census and other 
+language data and created a simple data model that can provide high level insight into these markets.  The end user would access this data via the CUSTOMER_VIEW 
+currently in snowflake most likely via a data vizualation tool.
+
+Improvements:
+In the real world, the value of this information would be increased greatly with Census Tract data to be able to drill down to the neigborhood level.
+
+I would typically provide an Entity-Relationship Diagram as part of my documentation, but I don't have a personal license for such software currently.
+
+Notes:
+
+The 'English Only' data element is marked as 'NO DATA' because there is currently not enough information to answer that question.
+
